@@ -341,10 +341,16 @@ img {
 
 .team-deck {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.18;
+}
+
+.team-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* ====== /Team section ====== */
 
