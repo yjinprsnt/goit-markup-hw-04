@@ -12,6 +12,7 @@
   --secondary-bg-cl: #f5f4fa;
   --dark-bg-cl: #2f303a;
   --border-item-cl: #eeeeee;
+  --icon-color: #afb1b8;
 
   --gap-between-cards: 30px;
 }
@@ -316,6 +317,8 @@ img {
   min-width: 270px;
 
   border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
+    0px 1px 3px 0px #0000001f;
   background-color: var(--main-bg-cl);
 }
 
@@ -351,6 +354,34 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.team-social-item:not(:last-child) {
+  display: flex;
+  margin-right: 10px;
+}
+
+.team-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  color: var(--icon-color);
+  background-color: var(--main-bg-cl);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  color: var(--main-bg-cl);
+  background-color: var(--accent-cl);
+}
+
+.social-icon {
+  fill: currentColor;
 }
 /* ====== /Team section ====== */
 
