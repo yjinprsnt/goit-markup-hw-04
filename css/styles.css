@@ -162,6 +162,8 @@ img {
 /* = contact-list = */
 .contact-list {
   display: flex;
+  align-items: center;
+
   margin-left: auto;
 }
 
@@ -175,8 +177,16 @@ img {
 
 .contact-mail-link,
 .contact-tel-link {
+  display: flex;
+  align-items: center;
+
   color: currentColor;
   font-weight: 500;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 /* = /contact-list = */
 /* ====== /Page header ====== */
@@ -583,11 +593,15 @@ img {
 .work-filter-btn:focus {
   color: var(--main-bg-cl);
   background-color: var(--accent-cl);
+  box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014,
+    0px 3px 1px 0px #0000001a;
 }
 
 .active-btn {
   color: var(--main-bg-cl);
   background-color: var(--accent-cl);
+  box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014,
+    0px 3px 1px 0px #0000001a;
 }
 /* = /Project filter = */
 
@@ -607,6 +621,12 @@ img {
 
   min-width: 370px;
   min-height: 404px;
+}
+
+.project-item:hover,
+.project-item:focus {
+  box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
+    0px 1px 1px 0px #0000001f;
 }
 
 .project-item-content {
