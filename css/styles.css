@@ -444,6 +444,16 @@ img {
   background-color: var(--dark-bg-cl);
 }
 
+.foot-container {
+  display: flex;
+  align-items: baseline;
+  /* justify-content: start; */
+}
+
+.foot-address-content:not(:last-child) {
+  margin-right: 70px;
+}
+
 .logo-foot {
   display: inline-block;
   margin-bottom: 20px;
@@ -480,6 +490,52 @@ img {
 .foot-contact-tel-link:focus {
   color: var(--accent-cl);
 }
+
+.foot-social-title {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: var(--main-bg-cl);
+}
+
+.foot-social-content {
+  margin-bottom: 100px;
+}
+
+.foot-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.foot-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  color: var(--main-bg-cl);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.foot-social-link:hover,
+.foot-social-link:focus {
+  background-color: var(--accent-cl);
+}
+
+.foot-social-icon {
+  fill: currentColor;
+}
+
 /* ====== /Footer ====== */
 
 /* =============== Portfolio =============== */
