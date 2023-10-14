@@ -457,7 +457,6 @@ img {
 .foot-container {
   display: flex;
   align-items: baseline;
-  /* justify-content: start; */
 }
 
 .foot-address-content:not(:last-child) {
@@ -501,17 +500,15 @@ img {
   color: var(--accent-cl);
 }
 
-.foot-social-title {
+.foot-social-deck {
   margin-bottom: 20px;
 
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
+  font-family: Roboto;
 
   color: var(--main-bg-cl);
-}
-
-.foot-social-content {
-  margin-bottom: 100px;
 }
 
 .foot-social-list {
