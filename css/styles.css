@@ -620,8 +620,14 @@ img {
   min-height: 404px;
 }
 
-.project-item:hover,
+/* .project-item:hover,
 .project-item:focus {
+  box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
+    0px 1px 1px 0px #0000001f;
+} */
+
+.project-link:hover,
+.project-link:focus {
   box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
     0px 1px 1px 0px #0000001f;
 }
