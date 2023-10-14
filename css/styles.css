@@ -423,7 +423,16 @@ img {
   align-items: center;
   justify-content: center;
   margin-right: 30px;
-  cursor: pointer;
+}
+
+.clients-item:last-child {
+  margin-right: 0;
+}
+
+.clients-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   width: 170px;
   height: 92px;
@@ -431,12 +440,8 @@ img {
   border: 1px solid var(--icon-color);
 }
 
-.clients-item:last-child {
-  margin-right: 0;
-}
-
-.clients-item:hover,
-.clients-item:focus {
+.clients-item-link:hover,
+.clients-item-link:focus {
   color: var(--accent-cl);
   border-color: var(--accent-cl);
 }
