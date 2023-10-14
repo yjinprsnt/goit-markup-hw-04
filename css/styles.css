@@ -657,13 +657,6 @@ img {
 
   color: var(--main-txt-cl);
 }
-
-.project-subtitle:hover,
-.project-subtitle:focus,
-.project-deck:hover,
-.project-deck:focus {
-  color: var(--accent-cl);
-}
 /* = /Project list = */
 
 /* ====== /Work section ====== */
